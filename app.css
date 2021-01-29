@@ -1,0 +1,41 @@
+@import 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
+
+.gallery--carousel {
+  margin: 20px auto;
+  overflow: hidden;
+  flex-basis: 55%;
+  position: relative;
+  height: 300px;
+  max-width: 800px;
+}
+.slider--carousel {
+  display: flex;
+  height: 100%;
+}
+.slider--carousel img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+.btn {
+  margin-top: 0;
+  padding: 10px;
+  position: absolute;
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  color: #fbf9f9;
+}
+.btn--prev {
+  left: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.btn--next {
+  right: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+}
